@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documental de Erick</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .gallery img {
+            max-width: 80%; /* Reducido para que todas las imágenes sean más pequeñas */
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+        .gallery {
+            padding: 20px;
+        }
+        .article-description {
+            text-align: center;
+            transition: color 0.3s ease;
+        }
+        .article-description:hover {
+            color: #d9534f; /* Cambia a un color rojo al pasar el ratón */
+        }
+        .article-title {
+            text-align: center;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+        .article-title:hover {
+            color: #d9534f; /* Cambia a un color rojo al pasar el ratón */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .dramatic-section {
+            background-color: #f8d7da;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+        .dramatic-section:hover {
+            background-color: #f5c6cb;
+        }
+        .dramatic-section h2 {
+            color: #721c24;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+        }
+        .dramatic-section h2:hover {
+            color: #d9534f; /* Cambia a un color rojo al pasar el ratón */
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+        }
+        .dramatic-section p {
+            color: #721c24;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            transition: color 0.3s ease;
+        }
+        .dramatic-section p:hover {
+            color: #d9534f; /* Cambia a un color rojo al pasar el ratón */
+        }
+        .dramatic-section img {
+            max-width: 50%; /* Reducido para las imágenes en las secciones dramáticas */
+            height: auto;
+            border-radius: 8px;
+            margin: 0 auto;
+            display: block; /* Centra la imagen */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .dramatic-section img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Erick: Una Figura Ancestral</h1>
+        <p>Este documental nos sumerge en la vida de Erick, una figura envuelta en misterio, cuya historia ha sido transmitida de generación en generación. Cada imagen cuenta una historia de su existencia atemporal, llena de carisma, sabiduría y fuerza.</p>
+    </header>
+
+    <section class="gallery container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="images/Erick_posando.jpg" class="card-img-top" alt="Erick posando">
+                    <div class="card-body">
+                        <h5 class="card-title article-title">Aquí vemos a Erick posando</h5>
+                        <p class="card-text article-description">Erick, en su pose tradicional, nos muestra su lado más sereno y reflexivo. Esta imagen captura un momento de introspección, en el que Erick parece conectar con fuerzas invisibles que solo él puede percibir. Su mirada distante sugiere una profunda conexión con sus raíces, como si en ese instante estuviera comunicándose con sus antepasados. Esta pose es representativa de la calma que siempre ha caracterizado a Erick, una calma que ha sido fuente de su sabiduría y equilibrio interior.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="images/Erikhernamo2.jpg" class="card-img-top" alt="Erick con su hermano">
+                    <div class="card-body">
+                        <h5 class="card-title article-title">Aquí Erick con su hermano</h5>
+                        <p class="card-text article-description">Erick, acompañado de su hermano, refleja la fortaleza de una relación fraternal que ha perdurado a lo largo del tiempo. Desde la infancia, ambos han sido inseparables, compartiendo experiencias y desafíos que los han moldeado como individuos. Esta imagen inmortaliza su complicidad y respeto mutuo, elementos fundamentales en su relación. A través de los años, su hermano ha sido su mayor apoyo, y juntos han enfrentado los retos más grandes, demostrando que el lazo de la hermandad es uno de los más poderosos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="images/Erikcassando.jpg" class="card-img-top" alt="Erick en la naturaleza">
+                    <div class="card-body">
+                        <h5 class="card-title article-title">Erick en la naturaleza</h5>
+                        <p class="card-text article-description">Conectado profundamente con su entorno, Erick se adentra en la naturaleza, donde encuentra paz y sabiduría. Este entorno natural no solo lo define, sino que es una extensión de su ser. Desde joven, Erick ha comprendido que la naturaleza es una maestra silenciosa, capaz de enseñar lecciones de paciencia, fuerza y resiliencia. En esta imagen, vemos cómo se mueve con agilidad entre los árboles, en perfecta armonía con el mundo que lo rodea, reconociendo que es en estos momentos donde su espíritu realmente se libera.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="images/Erikseduce.jpg" class="card-img-top" alt="Erick seduciendo">
+                    <div class="card-body">
+                        <h5 class="card-title article-title">Aquí vemos a Erick seduciendo</h5>
+                        <p class="card-text article-description">Erick, con una mirada penetrante y llena de misterio, despliega su carisma inigualable, seduciendo a todos los que lo observan. Es en estos momentos donde su presencia se hace más palpable, casi magnética. La forma en que utiliza su mirada y lenguaje corporal le permite controlar cada situación con una elegancia y confianza innatas. Esta imagen captura ese instante fugaz en el que su carisma se convierte en un arma poderosa, capaz de conquistar a cualquiera que se cruce en su camino.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="images/Erikposando.jpg" class="card-img-top" alt="Erick observando a su presa">
+                    <div class="card-body">
+                        <h5 class="card-title article-title">Aquí vemos a Erick observando a su presa</h5>
+                        <p class="card-text article-description">Con ojos atentos y concentrados, Erick se enfoca en su presa, esperando el momento perfecto para actuar. Su instinto depredador es innegable, pero también está lleno de paciencia y sabiduría. A lo largo de los años, Erick ha perfeccionado su habilidad para observar sin ser visto, manteniendo un control total sobre sus emociones y movimientos. Esta imagen capta la intensidad de su concentración, su respiración pausada, y su capacidad para moverse como un depredador ancestral en perfecta sintonía con su entorno. Cada detalle ha sido calculado, y su éxito es solo cuestión de tiempo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <img src="images/Erik en rio.jpg" class="card-img-top" alt="Erick pescando" style="max-width: 50%; margin: 0 auto;">
+                    <div class="card-body">
+                        <h5 class="card-title article-title">Aquí vemos a Erick pescando</h5>
+                        <p class="card-text article-description">Erick, en un momento de tranquilidad y paciencia, se dedica a la pesca en su entorno natural. Esta actividad refleja su conexión profunda con la tierra y su habilidad para mantenerse en calma mientras espera el momento adecuado. La pesca no solo es una forma de proveer, sino también un ritual que permite a Erick meditar y reflexionar. En esta imagen, vemos cómo Erick utiliza técnicas ancestrales, mostrando su destreza y respeto por la naturaleza mientras espera con paciencia el siguiente gran pez.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nueva sección añadida: Erick en el último viaje con su manada -->
+    <section class="dramatic-section container">
+        <h2>Erick en el último viaje con su manada</h2>
+        <p>En su último gran viaje, Erick se embarca en una travesía con su manada, una despedida épica y solemne. Esta imagen captura la majestuosidad de su última aventura, donde Erick, rodeado por sus compañeros de siempre, recorre paisajes vastos y desafiantes. Es un viaje lleno de nostalgia y significado, un adiós a la vida que ha conocido y un último tributo a la fuerza de su espíritu. La manada sigue su ejemplo, honrando el legado de Erick mientras enfrenta el final de su viaje con dignidad y unidad.</p>
+        <img src="images/Erik en manada.jpg" alt="Erick en el último viaje con su manada" style="max-width: 50%; height: auto;">
+    </section>
+
+    <!-- Nueva sección añadida -->
+    <section class="dramatic-section container">
+        <img src="images/Abitap 1.jpg" class="card-img-top" alt="Un Erick Muriendo" style="max-width: 30%; margin: 0 auto; display: block;">
+        <h2>Un Erick Muriendo</h2>
+        <p>En este momento de su vida, Erick enfrenta su final con la misma dignidad y serenidad que ha caracterizado su existencia. La imagen captura la última etapa de su viaje, un periodo de reflexión profunda y aceptación. A medida que la vida se desvanece, Erick permanece en paz, rodeado por el legado de sus actos y las memorias de aquellos que lo han conocido. Esta fase final, aunque triste, es también una celebración de una vida bien vivida, llena de experiencias que han dejado una huella imborrable en el mundo.</p>
+    </section>
+
+    <footer class="bg-primary text-white text-center py-4">
+        <p>&copy; 2024 Documental sobre Erick. Un vistazo a la vida de una figura eterna.</p>
+    </footer>
+</body>
+</html>
